@@ -134,4 +134,27 @@ int main(void)
 Repeat the program again without using a third variable.***
 
 ```c
+#include <stdio.h>
+
+int main(void)
+{
+    int c;
+    int d;
+
+    printf("Enter number c: ");
+    scanf("%d", &c);
+
+    printf("Enter number d: ");
+    scanf("%d", &d);
+
+    c = c+d;
+    d = c-d;
+    c = c-d;
+
+    printf("c is %d\n", c);
+    printf("d is %d\n", d);
+
+    return 0;
+}
+```
 
