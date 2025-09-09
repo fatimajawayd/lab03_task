@@ -101,3 +101,8 @@ int main(void)
     return 0;
 }
 ```
+
+***Q:10\
+Write a program to swap two variables using a third variable.***
+
+```c
