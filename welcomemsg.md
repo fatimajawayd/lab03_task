@@ -1,3 +1,10 @@
+## Q:06 
+# Welcome Message
+## Write a C program that prints the following exactly as shown:
+## Hello FASTIANS!
+## Topic is Introduction to Github.
+
+
 #include <stdio.h>
 
 int main(void)
