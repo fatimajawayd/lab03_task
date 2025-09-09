@@ -1,7 +1,6 @@
 /*
 Q:10
 Write a program to swap two variables using a third variable.
-Repeat the program again without using a third variable.
 */
 
 #include <stdio.h>
@@ -26,3 +25,35 @@ int main(void)
 
     return 0;
 }
+
+
+/*
+Repeat the program again without using a third variable.
+*/
+
+
+#include <stdio.h>
+
+int main(void)
+{
+    int c;
+    int d;
+
+    printf("Enter number c: ");
+    scanf("%d", &c);
+
+    printf("Enter number d: ");
+    scanf("%d", &d);
+
+    c = c+d;
+    d = c-d;
+    c = c-d;
+
+    printf("c is %d\n", c);
+    printf("d is %d\n", d);
+
+    return 0;
+}
+
+
+    
