@@ -1,5 +1,7 @@
-# Q:07
-***AREA AND PERIMETER OF RECTANGLE***
+\* 
+Q:07
+AREA AND PERIMETER OF RECTANGLE
+*/
 
 #include <stdio.h>
 
