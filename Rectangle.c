@@ -1,4 +1,4 @@
-\* 
+/*
 Q:07
 AREA AND PERIMETER OF RECTANGLE
 */
